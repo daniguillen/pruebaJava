@@ -1,13 +1,13 @@
-package com.practica;
+package com.nocountry.c15g39n;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PracticaApplication {
+public class BackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PracticaApplication.class, args);
+		SpringApplication.run(BackendApplication.class, args);
 	}
 
 }

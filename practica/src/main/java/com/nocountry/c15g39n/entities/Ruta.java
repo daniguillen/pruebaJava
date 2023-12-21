@@ -1,4 +1,4 @@
-package com.practica.entities;
+package com.nocountry.c15g39n.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,18 +8,18 @@ import lombok.Setter;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "roles")
+@Table(name = "rutas")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
-public class Rol {
+public class Ruta {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     private Long id;
-    @Column(name = "nombre")
+
+    @Column(name = "nombre", length = 100)
     private String nombre;
-    @Column(name = "descripcion")
     @Lob
     private String descripcion;
 }

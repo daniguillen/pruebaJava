@@ -1,9 +1,8 @@
 spring:
-    application:
-        name: practica
-    profiles:
-        active: dev
+  application:
+    name: practica
+  profiles:
+    active: dev
 
 server:
-    port: 8085
-
+  port: 8085
