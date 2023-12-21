@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: ${URL_DB}
+    username: ${USERNAME_DB}
+    password: ${PASSWORD_DB}
+  application:
+    name: practica
+
+    jpa:
+      hibernate:
+        ddl-auto: create
+        #ddl-auto: update
+      show-sql: true
+
+
